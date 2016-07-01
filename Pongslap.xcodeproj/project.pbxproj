@@ -14,6 +14,11 @@
 		9B35E9641C9A7F3E0047D3CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9621C9A7F3E0047D3CF /* Main.storyboard */; };
 		9B35E9661C9A7F3E0047D3CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9651C9A7F3E0047D3CF /* Assets.xcassets */; };
 		9B35E9691C9A7F3E0047D3CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9671C9A7F3E0047D3CF /* LaunchScreen.storyboard */; };
+		9B35E9711C9A7FC50047D3CF /* GameSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35E9701C9A7FC50047D3CF /* GameSceneDelegate.swift */; };
+		9B35E9731C9A7FF50047D3CF /* evil.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9721C9A7FF50047D3CF /* evil.m4a */; };
+		9B35E9751C9A80040047D3CF /* pinghit.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9741C9A80040047D3CF /* pinghit.m4a */; };
+		9B35E9771C9A80250047D3CF /* slap.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9B35E9761C9A80250047D3CF /* slap.m4a */; };
+		9B35E9791C9A80F20047D3CF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B35E9781C9A80F20047D3CF /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		9B35E9651C9A7F3E0047D3CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B35E9681C9A7F3E0047D3CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B35E96A1C9A7F3E0047D3CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B35E9701C9A7FC50047D3CF /* GameSceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSceneDelegate.swift; sourceTree = "<group>"; };
+		9B35E9721C9A7FF50047D3CF /* evil.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = evil.m4a; sourceTree = "<group>"; };
+		9B35E9741C9A80040047D3CF /* pinghit.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pinghit.m4a; sourceTree = "<group>"; };
+		9B35E9761C9A80250047D3CF /* slap.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = slap.m4a; sourceTree = "<group>"; };
+		9B35E9781C9A80F20047D3CF /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B35E9791C9A80F20047D3CF /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,7 @@
 		9B35E94E1C9A7F3E0047D3CF = {
 			isa = PBXGroup;
 			children = (
+				9B35E9781C9A80F20047D3CF /* iAd.framework */,
 				9B35E9591C9A7F3E0047D3CF /* Pongslap */,
 				9B35E9581C9A7F3E0047D3CF /* Products */,
 			);
@@ -63,6 +75,10 @@
 				9B35E95E1C9A7F3E0047D3CF /* GameScene.swift */,
 				9B35E9601C9A7F3E0047D3CF /* GameViewController.swift */,
 				9B35E9621C9A7F3E0047D3CF /* Main.storyboard */,
+				9B35E9701C9A7FC50047D3CF /* GameSceneDelegate.swift */,
+				9B35E9721C9A7FF50047D3CF /* evil.m4a */,
+				9B35E9741C9A80040047D3CF /* pinghit.m4a */,
+				9B35E9761C9A80250047D3CF /* slap.m4a */,
 				9B35E9651C9A7F3E0047D3CF /* Assets.xcassets */,
 				9B35E9671C9A7F3E0047D3CF /* LaunchScreen.storyboard */,
 				9B35E96A1C9A7F3E0047D3CF /* Info.plist */,
@@ -130,8 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B35E95D1C9A7F3E0047D3CF /* GameScene.sks in Resources */,
+				9B35E9771C9A80250047D3CF /* slap.m4a in Resources */,
 				9B35E9691C9A7F3E0047D3CF /* LaunchScreen.storyboard in Resources */,
+				9B35E9751C9A80040047D3CF /* pinghit.m4a in Resources */,
 				9B35E9661C9A7F3E0047D3CF /* Assets.xcassets in Resources */,
+				9B35E9731C9A7FF50047D3CF /* evil.m4a in Resources */,
 				9B35E9641C9A7F3E0047D3CF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B35E95F1C9A7F3E0047D3CF /* GameScene.swift in Sources */,
+				9B35E9711C9A7FC50047D3CF /* GameSceneDelegate.swift in Sources */,
 				9B35E9611C9A7F3E0047D3CF /* GameViewController.swift in Sources */,
 				9B35E95B1C9A7F3E0047D3CF /* AppDelegate.swift in Sources */,
 			);
@@ -257,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pongslap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vilk.Pongslap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -268,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Pongslap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = vilk.Pongslap;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,6 +315,7 @@
 				9B35E96F1C9A7F3E0047D3CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
